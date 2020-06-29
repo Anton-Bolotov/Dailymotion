@@ -11,7 +11,7 @@ print('Ожидайте')
 for _ in range(10):
     page += 1
     url = 'https://api.dailymotion.com/videos?limit=100&fields=id,title,description,views_total,user.username,' \
-          'duration,channel.created_time&search='+ str(title_input) + '&page=' + str(page)
+          'duration,channel.created_time&search=' + str(title_input) + '&page=' + str(page)
     r = requests.get(url)
     _text = r.text.split('"list":[')[1]
     r_text = _text.split('},{')
