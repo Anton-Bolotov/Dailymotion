@@ -50,7 +50,7 @@ class Dailymotion:
 
 if __name__ == '__main__':
     input_list = []
-    print('---> Грабер выдачи Dailymotion.com v.0.2.1.0')
+    print('---> Грабер выдачи Dailymotion.com v.0.2.5.1')
     print('---> Если необходимо ввести несколько запросов - введите запрос и нажмите Enter')
 
     with open('dailymotion_result.csv', newline='', mode='w') as file_columns:
